@@ -1,0 +1,724 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 20px;
+}
+
+.header-logo {
+    color: aliceblue;
+}
+
+.container {
+    padding: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.header-logo span {
+    color: #807fd0;
+    margin-left: 43px;
+    font-weight: 900;
+}
+
+.menu-btn {
+    color: #2fcbef;
+    user-select: none;
+}
+
+.python-box {
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.btn {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-bar-inner {
+    display: none;
+}
+
+.ul-link {
+    position: absolute;
+    display: block;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.79);
+    width: 100%;
+    margin-left: -20px;
+    text-align: left;
+}
+
+.home-animation{
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    margin: 15px;
+    text-decoration: none;
+    list-style: none;
+    color: #e6db74;
+}
+
+
+.links:hover {
+    color: #2fcbef;
+}
+
+.active {
+    color: #2fcbef;
+    margin: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* after header */
+
+.after-header-text {
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 62px;
+}
+
+.span-animation {
+    color: aliceblue;
+    display: inline;
+    
+}
+
+
+
+.animation-text{
+    color: #e6db74;
+    font-size:20px;
+    display: flex;
+    margin: 0;
+}
+
+.dev-img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.code-tags {
+    color: #9291f1;
+    text-align: center;
+}
+
+.about-text {
+    color: aliceblue;
+    text-align: center;
+}
+
+.about-paragrap {
+    width: 290px;
+    color: #e6db74;
+    text-align: start;
+}
+
+.about-paragrap-job {
+    color: #e6db74;
+}
+
+.cards {
+    width: 100%
+}
+
+.name {
+    color: aliceblue;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-link {
+    color: #e6db74;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.card-inner {
+    margin-top: 60px;
+}
+
+.servise-header {
+    color: #807fd0;
+    text-align: center;
+}
+
+.service-text {
+    color: aliceblue;
+    text-align: center;
+}
+
+.s-input {
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    border: solid .6px rgba(255, 255, 255, 0.422);
+    cursor: text;
+    margin: 5px 0 5px 0;
+    text-align: center;
+    color: #9291f1;
+
+}
+
+#servise-input-green {
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    margin-top: 5px;
+    border: solid .6px rgba(255, 255, 255, 0.422);
+    color: #e6db74;
+}
+
+.s-input:hover {
+    background-color: #e6db74;
+}
+
+#servise-input-green:hover {
+    background-color: #2fcbef;
+}
+
+#servise-input-one {
+    color: #2fcbef;
+}
+
+.contanct-header {
+    color: #807fd0;
+    text-align: center;
+}
+
+
+.animation-text {
+    margin: 30px;
+}
+
+.git-animaton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #807fd083;
+    background: transparent;
+    height: 50px;
+    outline: none;
+    color: #807fd0;
+}
+
+#text-area {
+    height: 100px;
+}
+
+.send {
+    background-color: #2fcbef;
+    color: aliceblue;
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+.send:hover {
+    background-color: #807fd0;
+}
+
+.animation-text-ebout {
+    color: #807fd0;
+    display: inline;
+    font-size: 30px;
+    margin-right: -10px;
+    text-align: center;
+}
+
+.Header-about {
+    color: aliceblue;
+    font-size: 21px;
+}
+
+.skills-symbol {
+    color: #807fd0;
+}
+
+.header {
+    color: aliceblue;
+}
+
+.skill-text {
+    color: #e6db74;
+}
+
+.skills-ebout {
+    margin-top: 30px;
+}
+
+.contant-me {
+    color: aliceblue;
+    text-align: center;
+}
+
+.error-massage{
+    color: rgba(255, 111, 0, 0.9);
+    font-size: 10px;
+}
+
+.email-error-massage{
+    color: rgba(255, 111, 0, 0.9);
+    font-size: 10px;
+}
+
+.text-error-massage{
+    color: rgba(255, 111, 0, 0.9);
+    font-size: 10px;
+}
+
+.names {
+    color: #e6db74;
+}
+
+.animation-text-portfolio {
+    color: #807fd0;
+    font-size: 33px;
+    margin: 0 20px 0 20px;
+}
+
+.header-portfolio {
+    color: #9291f1;
+    text-align: center;
+}
+
+.animation-text-servvices {
+    color: #2fcbef;
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+
+
+.animarion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box{
+    display: grid;
+    justify-content: center;
+    margin-left: -15px;
+}
+
+.service-text {
+    color: #e6db74;
+    font-size: 30px
+}
+
+
+.animation-text-skills {
+    color: #807fd0;
+    font-size: 35px;
+}
+
+.html-box {
+    margin-top: 30px;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #e6db74;
+    border: solid 1px #807fd091;
+}
+
+.css-box {
+    margin-top: 30px;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #e6db74;
+    border: solid 1px #e6db7487;
+}
+
+.js-box {
+    margin-top: 30px;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    color: #e6db74;
+    border: solid 1px #2fccefa8;
+}
+
+
+.skills-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.react-box {
+    margin-top: 30px;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    color: #e6db74;
+    border: solid 1px #807fd0aa;
+}
+
+.python-box {
+    margin-top: 30px;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    color: #e6db74;
+    border: solid 1px #807fd0aa;
+
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+    .about-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .after-header-text {
+        font-size: 25px;
+    }
+
+    .services{
+        display: flex;
+        align-items: center;
+        margin-left: -80px;
+    }
+
+    .animation-text-servvices{
+        margin: 0 80px 0 80px;
+    }
+
+    .span-animation {
+        margin-right: 100px;
+    }
+
+    .span-animation-one {
+        margin: -30px;
+    }
+
+    .animation-text {
+        font-size: 35px;
+        margin: 40px;
+    }
+
+    .animation-text-portfolio {
+        color: #807fd0;
+        font-size: 33px;
+        margin: 0 50px 0 50px;
+    }
+
+    .python-box {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .about-paragrap-job {
+        text-align: center;
+        width: 100%;
+        font-size: 35px;
+    }
+
+
+    .span-animation {
+        margin-left: -40px;
+    }
+
+    .span-animation {
+        margin-right: -40px;
+    }
+
+    .send {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .animation-text-ebout {
+        font-size: 45px;
+        letter-spacing: 3px;
+        margin: 0 80px 0 80px;
+    }
+
+    .about-animation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+    }
+
+    .about-paragrap {
+        text-align: start;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .home-animation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+    }
+
+    .skills-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .animarion:nth-child(1) {
+        margin-left: 17%;
+    }
+
+    .animation-text-servvices {
+        font-size: 45px;
+    }
+
+    .animarion {
+        margin-left: -200px;
+    }
+
+    .animation-text-skills {
+        font-size: 55px;
+        margin: 0 80px 0 80px;
+    }
+
+    .git-animaton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .container{
+        padding: 20px;
+    }
+    .nav-bar-inner {
+        display: flex;
+    }    
+
+    .skills-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .main {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-inner{
+        display: flex;
+    }
+
+    .about-animation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+    }
+    
+    .ul-link{
+        display: flex;
+        margin-top: -30px;
+        margin-left: 20%;
+    }
+
+    .animation-text {
+        font-style: 45px;
+    }
+
+    .animarion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-inner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .about-paragrap {
+        padding: 55px;
+        width: 400px;
+    }
+
+    .span-animation-one {
+        margin: 0px;
+    }
+
+    .cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+
+    .card-img {
+        width: 100%;
+        height: 550px;
+    }
+
+    .s-input {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .about-paragrap {
+        width: 100%;
+        font-size: 25px;
+    }
+
+   
+    .portfolio main {
+        margin-left: 15%;
+    }
+
+    .animation-text-portfolio {
+        color: #807fd0;
+        font-size: 33px;
+        margin: 0 80px 0 80px;
+    }
+
+    .animation-text-servvices {
+        letter-spacing: 15px;
+        font-size: 35px;
+        margin: 0 80px 0 80px;
+    }
+
+
+    .git-animaton{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .service-box {
+        margin-left: 30px;
+    }
+
+    .service-text {
+        margin-top: 60px;
+        margin-left: -120px;
+    }
+
+    .skills-inner {
+        display: flex;
+        justify-content: center;
+        margin-left: -100px;
+    }
+
+    .skill-box {
+        font-size: 35px;
+        letter-spacing: 15px;
+    }
+
+    .s-input {
+        width: 500px;
+    }
+
+    #servise-input-green {
+        width: 500px;
+    }
+
+    .programs {
+        gap: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+    }
+
+    .skill-box {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        grid-template-columns: auto auto;
+    }
+
+    .skill-box>* {
+        width: 400px;
+    }
+
+    .service-text {
+        font-size: 45px;
+        margin-left: 5px;
+    }
+
+    .inp {
+        margin-top: 40px;
+    }
+
+    .cont-info {
+        width: 600px;
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .python-box {
+        margin-left: 50%;
+    }
+
+    .home-animation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+    }
+}
